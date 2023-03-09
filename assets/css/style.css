@@ -61,3 +61,40 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+
+/*Drift Image & Cover-Text*/
+
+#drift-control {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+ }
+
+#cover-text, #cover-text h2 {
+    color: #fff;
+}
+#drift-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/pexels-pixabay-274974.jpg) no-repeat center center;
+
+     /* Animation Zoom Effect On Loading Page*/
+     animation-name: drift-zoom;
+     animation-duration: 5s;
+     animation-fill-mode: forwards;
+ 
+}
+ 
+
+/*Creates Drift Image Animation*/
+
+@keyframes drift-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
