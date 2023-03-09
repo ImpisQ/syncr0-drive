@@ -10,4 +10,41 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Tilt Neon', cursive;
     font-weight: 300;
+    color: #3a3a3a;
+}
+
+ /* headings and logo */
+
+h1, h2 {
+    font-family: 'Tilt Neon', cursive;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+#logo {
+    float: center;
+    font-size: 75px;
+}
+
+/* navigation links */
+
+.navigation {
+    float: right;
+}
+
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: left; 
+    list-style-type: none;
+    margin-right: 45px;
 }
