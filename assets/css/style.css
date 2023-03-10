@@ -21,10 +21,10 @@ h1, h2 {
     color: #737373;
 }
 
-#logo {
-    float: center;
+.logo {
+    float: left;
     font-size: 75px;
-    margin-left: ;
+    margin-left: 35px;
 }
 
 /* navigation links */
