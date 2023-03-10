@@ -8,7 +8,6 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    font-family: 'Tilt Neon', cursive;
     font-weight: 300;
     color: #3a3a3a;
 }
@@ -19,12 +18,13 @@ h1, h2 {
     font-family: 'Tilt Neon', cursive;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
+    color: #737373;
 }
 
 #logo {
     float: center;
     font-size: 75px;
+    margin-left: ;
 }
 
 /* navigation links */
@@ -74,8 +74,9 @@ h1, h2 {
  }
 
 #cover-text, #cover-text h2 {
-    color: #fff;
+    color: #4c4c4c; 
 }
+ 
 #drift-image {
     height: 600px;
     width: 100%;
@@ -83,7 +84,7 @@ h1, h2 {
 
      /* Animation Zoom Effect On Loading Page*/
      animation-name: drift-zoom;
-     animation-duration: 5s;
+     animation-duration: 25s;
      animation-fill-mode: forwards;
  
 }
@@ -98,3 +99,24 @@ h1, h2 {
     to{
         transform: scale(1.1);
     }
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba();
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+} 
