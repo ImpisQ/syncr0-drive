@@ -120,3 +120,43 @@ h1, h2 {
 
     position: absolute;
 } 
+
+/* Syncro Ethos*/
+
+#syncro-ethos {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 35px;
+    width: 33%;
+    float: left;
+    background-color: silver;
+}
+
+#right-about {
+    padding-top: 35px;
+    width: 33%;
+    float: right;
+    background-color: grey;
+}
+
+#center-about {
+    width: 33%;
+    float: right;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 55px;
+}
+
