@@ -153,7 +153,7 @@ hr {
 }
 
 .left-about-heading {
-    width: 55%;
+    width: 35%;
     float: right;
     line-height: 20px;
     clear: both;
@@ -161,7 +161,7 @@ hr {
 }
 
 .right-about-heading {
-    width: 45%;
+    width: 35%;
     float: left;
     line-height: 20px;
     clear: both;
@@ -184,6 +184,21 @@ hr {
     border-color: #3a3a3a;
     border-width: 1px;
 }
+
+.flex-container {
+    display: flex;
+    background-color: goldenrod;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 5px;
+    padding: 25px;
+    font-size: 15px;
+    margin-bottom: 55px;
+    clear: both;
+  }
+
 
 /* Footer*/
 
