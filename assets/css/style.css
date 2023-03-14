@@ -161,7 +161,7 @@ hr {
 }
 
 .right-about-heading {
-    width: 55%;
+    width: 45%;
     float: left;
     line-height: 20px;
     clear: both;
@@ -184,3 +184,25 @@ hr {
     border-color: #3a3a3a;
     border-width: 1px;
 }
+
+/* Footer*/
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 165%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
