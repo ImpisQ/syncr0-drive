@@ -22,8 +22,7 @@ h1, h2 {
 }
 
 h2 {
-    text-align: ;
-    float:inherit;
+    text-align: center;
 }
 
 .logo {
@@ -118,7 +117,6 @@ h2 {
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba();
 
     bottom: 30px;
     right: 150px;
@@ -156,19 +154,19 @@ hr {
 }
 
 .left-about-heading {
-    width: 55%;
+    width: 60%;
     float: right;
     line-height: 20px;
     clear: both;
-    margin-bottom: 55px;
+    margin-bottom: 50px;
 }
 
 .right-about-heading {
-    width: 55%;
+    width: 60%;
     float: left;
     line-height: 20px;
     clear: both;
-    margin-bottom: 55px;
+    margin-bottom: 50px;
 }
 
 .right-about-heading h2 {
@@ -177,6 +175,12 @@ hr {
 
 .right-about-heading p {
     text-align: right;
+}
+
+.welkom {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 250%;
 }
 
 #welkom {
@@ -188,8 +192,7 @@ hr {
 #media-container {
     width: 300px;
     height: 350px;
-    padding: ;
-    border-style: ;
+    border-style: none;
     border-color: #3a3a3a;
     border-width: 1px;
 }
@@ -209,6 +212,7 @@ hr {
     right: 0;
     width: 100%;
     height: 100%;
+    margin: 0 auto;
   }
 
   
