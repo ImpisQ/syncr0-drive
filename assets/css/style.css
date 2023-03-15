@@ -136,14 +136,12 @@ h2 {
     padding-top: 35px;
     width: 33%;
     float: left;
-    background-color: silver;
 }
 
 #right-about {
     padding-top: 35px;
     width: 33%;
     float: right;
-    background-color: grey;
 }
 
 #center-about {
@@ -179,6 +177,12 @@ hr {
 
 .right-about-heading p {
     text-align: right;
+}
+
+#welkom {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
 }
 
 #media-container {
@@ -254,4 +258,74 @@ footer {
 
 #photos > img {
     width: 100%;
+}
+
+/* Media Queries*/
+
+/* For larger to medium screen sixes netween 1200px wide and down*/
+
+@media screen and (max-width: 1200px) {
+    #syncro-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welkom {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about, right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+/* For Medium Screen Sizes From 950px Wide & Down */
+@media screen (max-width: 950px) {
+    
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #syncro-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    } 
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
 }
