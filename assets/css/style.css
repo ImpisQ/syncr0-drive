@@ -153,7 +153,7 @@ hr {
 }
 
 .left-about-heading {
-    width: 35%;
+    width: 55%;
     float: right;
     line-height: 20px;
     clear: both;
@@ -161,7 +161,7 @@ hr {
 }
 
 .right-about-heading {
-    width: 35%;
+    width: 55%;
     float: left;
     line-height: 20px;
     clear: both;
@@ -188,6 +188,9 @@ hr {
 .flex-container {
     display: flex;
     background-color: goldenrod;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
   }
   
   .flex-container > div {
