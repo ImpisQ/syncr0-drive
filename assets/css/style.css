@@ -233,7 +233,7 @@ hr {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
     width: 20%;
-    height: 300px;
+    height: 800px;
     float: left;
     padding: 30px 0 0 10px;
     text-align: center;
@@ -354,5 +354,16 @@ footer {
     .left-about-heading p, .right-about-heading p {
         text-align: center;
         padding: 0 20px;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+/* For small screen sizes 800px and down */
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
     }
 }
