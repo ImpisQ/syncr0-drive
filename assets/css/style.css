@@ -196,7 +196,14 @@ hr {
     text-align: center;
     margin: 35px 0;
     font-size: 280%;
+    float: inherit;
 }
+#welkom h3 {
+    font-family: 'Tilt Neon', cursive;
+    color: #737373;
+
+}
+
 
 #media-container {
     width: 300px;
