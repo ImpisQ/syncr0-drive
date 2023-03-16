@@ -21,8 +21,8 @@ h1, h2 {
     color: #737373;
 }
 
-h3 {
-    color: darkorange;
+#classes h3 {
+    color: #fafafa
 }
 
 
@@ -156,7 +156,7 @@ hr {
 
 .left-about-heading {
     width: 60%;
-    float: right;
+    float: left;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
@@ -164,7 +164,7 @@ hr {
 
 .right-about-heading {
     width: 60%;
-    float: left;
+    float: right;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
@@ -204,6 +204,7 @@ hr {
     overflow: hidden;
     width: 100%;
     display: block;
+    margin: 0 auto;
   }
 
   .responsive-iframe {
@@ -231,7 +232,7 @@ hr {
 
   #classes div {
     color: #fafafa;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0);
     width: 20%;
     height: 800px;
     float: left;
