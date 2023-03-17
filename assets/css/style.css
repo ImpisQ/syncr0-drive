@@ -186,22 +186,16 @@ hr {
     text-align: center;
 }
 
-.welkom {
-    text-align: center;
-    margin: 15px 0;
-    font-size: 250%;
-}
-
 #welkom {
     text-align: center;
-    margin: 35px 0;
+    margin: 25px 0;
     font-size: 280%;
     float: inherit;
 }
+
 #welkom h3 {
     font-family: 'Tilt Neon', cursive;
     color: #737373;
-
 }
 
 
@@ -224,7 +218,7 @@ hr {
 
   .responsive-iframe {
     position: absolute;
-    top: 0;
+    top: 100px;
     left: 0;
     bottom: 0;
     right: 0;
@@ -247,7 +241,7 @@ hr {
 
   #classes div {
     color: #fafafa;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, .5);
     width: 20%;
     height: 800px;
     float: left;
@@ -314,14 +308,15 @@ footer {
 
     #left-about, right-about {
         width: 100%;
-        float: left;
+        float: none;
         padding: 0;
+        clear: both;
     }
 
     #center-about {
         clear: both;
         width: 100%;
-        float: left;
+        float: none;
         padding: 0;
     }
 
@@ -353,7 +348,7 @@ footer {
     }
 
     #syncro-ethos {
-        width: 90%;
+        width: 95%;
         height: 1200px;
         margin: 0 auto;
     }
@@ -381,5 +376,29 @@ footer {
 @media screen and (max-width: 800px) {
     #photos {
         column-count: 2;
+    }
+
+    #welkom {
+        float: none;
+        width: 100%;
+        clear: both;
+        padding: 0;
+    }
+
+    .left-about-heading, .right-about-heading {
+        float: none;
+        width: 100%;
+        clear: both;
+        padding: 0;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0;
     }
 }
