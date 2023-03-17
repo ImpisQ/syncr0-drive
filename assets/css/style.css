@@ -295,22 +295,52 @@ footer {
 /* For larger to medium screen sixes netween 1200px wide and down*/
 
 @media screen and (max-width: 1200px) {
-    #syncro-ethos {
-        width: 65%;
-        height: 1200px;
+
+    .logo {
+        width: 100%;
+        float: left;
+        padding: 0;
+        clear: both;
+    }
+
+    #menu {
+        clear: both;
+        width: 100%;
+        float: none;
+        padding: 0;
         margin: 0 auto;
+        text-align: center; 
+    }
+
+    #syncro-ethos {
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+        clear: both;
     }
 
     #welkom {
-        padding: 30px 0;
-        margin: 0;
+        padding: 0;
+        margin: 0 auto;
+        clear: both;
+        text-align: center;
     }
 
-    #left-about, right-about {
+    #left-about, #right-about {
         width: 100%;
         float: none;
         padding: 0;
         clear: both;
+        text-align: center;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: 100%;
+        float: none;
+        clear: both;
+        padding: 0;
+        margin: 0 auto;
     }
 
     #center-about {
@@ -318,13 +348,16 @@ footer {
         width: 100%;
         float: none;
         padding: 0;
+        margin: 0 auto;
     }
 
     #classes > div {
         width: 100%;
         clear: both;
-        height: 150px;
+        height: auto;
         padding: 0;
+        margin: 0 auto;
+
     }
 
     hr {
@@ -343,18 +376,46 @@ footer {
         line-height: 25px;
     }
 
-    #cover-text {
-        left: 0;
+    .logo {
+        width: 100%;
+        float: left;
+        padding: 0;
+        clear: both;
     }
 
-    #syncro-ethos {
-        width: 95%;
-        height: 1200px;
+    #cover-text {
+        left: 0;
+        width: 100%;
+        float: none;
+        padding: 0;
+        clear: both;
         margin: 0 auto;
     }
 
+    #welkom {
+        float: none;
+        width: 95%;
+        clear: both;
+        padding: 0;
+    }
+
+    #syncro-ethos {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: none;
+        padding: 0;
+        clear: both;
+    }
+
     .left-about-heading, .right-about-heading {
-        width: inherit;
+        width: 100%;
+        float: none;
+        clear: both;
+        padding: 0;
     }
 
     .left-about-heading h2, .right-about-heading h2 {
@@ -364,7 +425,8 @@ footer {
 
     .left-about-heading p, .right-about-heading p {
         text-align: center;
-        padding: 0 20px;
+        padding: 0;
+        width: 100%;
     }
 
     #photos {
@@ -374,6 +436,23 @@ footer {
 
 /* For small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
+
+    .logo {
+        width: 100%;
+        float: none;
+        padding: 0;
+        clear: both;
+    }
+    
+    #cover-text {
+        left: 0;
+        width: 100%;
+        float: none;
+        padding: 0;
+        clear: both;
+        margin: 0 auto;
+    }
+
     #photos {
         column-count: 2;
     }
@@ -385,6 +464,13 @@ footer {
         padding: 0;
     }
 
+    #left-about, #right-about {
+        width: 100%;
+        float: none;
+        padding: 0;
+        clear: both;
+    }
+
     .left-about-heading, .right-about-heading {
         float: none;
         width: 100%;
@@ -395,10 +481,13 @@ footer {
     .left-about-heading h2, .right-about-heading h2 {
         width: 100%;
         text-align: center;
+        margin: 0 auto;
     }
 
     .left-about-heading p, .right-about-heading p {
         text-align: center;
         padding: 0;
+        margin: 0 auto;
+        width: 100%;
     }
 }
