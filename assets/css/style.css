@@ -298,6 +298,13 @@ footer {
     background-size: cover;
     background-position: center;
     height: 1100px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    text-align: left;
+    justify-content: center;
+    animation: change 125s infinite ease-in-out;
 }
 
 .signup-form {
@@ -345,6 +352,33 @@ footer {
 .join-button:hover {
     background-color: #fafafa;
     color: orangered;
+}
+
+@keyframes change{
+    0%
+    {
+        background-image: url(../images/pexels-andrés-chirrisco-15928578.jpg);
+    }
+    20%
+    {
+        background-image: url(../images/pexels-mike-b-188777.jpg);
+    }
+    40%
+    {
+        background-image: url(../images/pexels-jose-mueses-1280560.jpg);
+    }
+    60%
+    {
+        background-image: url(../images/pexels-supreet-7749314.jpg);
+    }
+    80%
+    {
+        background-image: url(../images/pexels-andrés-chirrisco-15928578.jpg);
+    }
+    100%
+    {
+        background-image: url(../images/pexels-mike-b-188777.jpg);
+    }
 }
 
 
