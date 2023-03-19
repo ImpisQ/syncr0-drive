@@ -297,14 +297,14 @@ footer {
     background: url("../images/pexels-txom-photography-13731178.jpg");
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 1100px;
 }
 
 .signup-form {
     margin: 150px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
+    max-width: 500px;
     position: absolute;
     left: 10%;
     padding: 30px;
@@ -313,6 +313,8 @@ footer {
 .signup-form > h2 {
     color: #fafafa;
     margin-bottom: 20px;
+    vertical-align: middle; 
+    margin: 0 auto;
 }
 
 .text-input {
@@ -335,14 +337,14 @@ footer {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
-    color: #fafafa;
+    background-color: darkorange;
+    color: whitesmoke;
     display: block;
 }
 
 .join-button:hover {
     background-color: #fafafa;
-    color: #f16c6b;
+    color: orangered;
 }
 
 

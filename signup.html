@@ -36,40 +36,51 @@
 
     <section class="form-section">
         
-        
-        <form action="https://formdump.codeinstitute.net/" method="POST">
-            
-                <h2>Go Syncro-Drive!</h2>
-           
-                
+        <form action="https://formdump.codeinstitute.net/" method="POST" class="signup-form">
+              
             <label for="fname">First Name</label><br>
-            <input type="text" id="fname" name="first_name" required />
-            
-            
-            
+            <input class="text-input" type="text" id="fname" name="first_name" required />
             
             
             <label for="lname">Last Name</label><br>
-            <input type="text" id="lname" name="last_name" required />
+            <input class="text-input" type="text" id="lname" name="last_name" required />
             
-         
                 
             <label for="email">Email Address</label><br>
-            <input type="email" id="email" name="email_address" required />
-            
-            <label for="classes">VIP & Defensive</label>
-            <input type="radio" id="classes" name="classes_preference" value="road" required />
-            
-            <label for="trail">Trail</label>
-            <input type="radio" id="trail" name="running_preference" value="trail">
-            
-            <label for="both">Both</label>
-            <input type="radio" id="both" name="running_preference" value="both">
-            
-          
-            <input type="submit" value="Go Syncro-Drive!"/>
+            <input class="text-input" type="email" id="email" name="email_address" required />
 
+            <div class="container">
+                <div class="radio">
+                    <input type="radio" id="vip-defensive" name="classes_preference" value="vip-defensive" required />
+                    <label for="classes">VIP & Defensive</label><br>
+                </div>
 
+                <div class="radio">
+                    <input type="radio" id="extreme" name="classes_preference" value="extreme">
+                    <label for="classes">Extreme Environments</label><br>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" id="rally" name="classes_preference" value="rally">
+                    <label for="classes">Rally Driving</label><br>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" id="dynamics" name="classes_preference" value="dynamics">
+                    <label for="classes">Vehicle Dynamics</label><br>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" id="tactical" name="classes_preference" value="tactical">
+                    <label for="classes">Stunt & Tactical</label><br>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" id="Custom" name="classes_preference" value="Custom">
+                    <label for="custom">Custom</label><br>
+                </div>
+ 
+            <input class="join-button" type="submit" value="Go Syncro-Drive!"/>
         </form>
 
         
