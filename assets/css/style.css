@@ -290,6 +290,79 @@ footer {
     width: 100%;
 }
 
+/* About-Syncro */
+
+.our-story {
+        clear: both;
+        float: left;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        width: 30%; 
+}
+
+#about-syncro-drive {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    padding: 25px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    margin: 0 auto;
+}
+
+#the-idea {
+    text-align: center;
+    margin: 25px 0;
+    font-size: ;
+    padding: 25px;
+}
+
+img {
+    max-width: 100%;
+    float: right;
+    padding-top: 25px;
+}
+
+.about-syncro-drive > div{
+    flex-basis: 40%;
+
+}
+
+.about-syncro {
+    display: grid;
+    align-items: flex-start;
+    float: left;
+    width: 15%;
+    padding-top: 5%;
+    line-height: 20px;
+    
+}
+
+.deer-image {
+    float: right;
+    border: 2px solid white;
+    width: 100%;
+    
+}
+
+img {
+    
+}
+
+#about-heading {
+    padding-left: 20px;
+    padding-top: 20%;
+    float: left;
+    clear: both;
+  }
+
+  .media1 {
+    text-align: center;
+  }
+
+
+
 /* Form */
 
 .form-section {
@@ -361,7 +434,7 @@ footer {
     }
     20%
     {
-        background-image: url(../images/pexels-mike-b-188777.jpg);
+        background-image: url(../images/pexels-txom-photography-13731178.jpg);
     }
     40%
     {
@@ -419,6 +492,27 @@ footer {
         text-align: center;
     }
 
+    .about-syncro {
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+        clear: both;
+        text-align: center;
+    }
+
+    #about-images {
+        width: 100%;
+        float: right;
+        padding: 0;
+        margin: 0 auto;
+        clear: both;
+    }
+
+    #about-heading {
+        float: left;
+    }
+
     #left-about, #right-about {
         width: 100%;
         float: none;
@@ -455,9 +549,20 @@ footer {
     hr {
         display: none;
     }
+
+    .media-container {
+        clear: both;
+        width: 100%;
+        float: none;
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center; 
+    }
 }
 
 /* For Medium Screen Sizes From 950px Wide & Down */
+
 @media screen (max-width: 950px) {
     
     #menu {
@@ -524,6 +629,25 @@ footer {
     #photos {
         column-count: 3;
     }
+
+    .responsive-iframe {
+        left: 0;
+        width: 100%;
+        float: none;
+        padding: 0;
+        clear: both;
+        margin: 0 auto;
+    }
+
+    .media-container {
+        clear: both;
+        width: 100%;
+        float: none;
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center; 
+    }
 }
 
 /* For small screen sizes 800px and down */
@@ -544,6 +668,17 @@ footer {
         clear: both;
         margin: 0 auto;
     }
+
+    #menu {
+        clear: both;
+        width: 100%;
+        float: none;
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center; 
+    }
+
 
     #photos {
         column-count: 2;
@@ -582,4 +717,41 @@ footer {
         margin: 0 auto;
         width: 100%;
     }
-}
+
+    .about-syncro {
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+        clear: both;
+        text-align: center;
+    }
+
+    .deer-image {
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+        clear: both;
+    }
+
+    .responsive-iframe {
+        left: 0;
+        width: 100%;
+        float: none;
+        padding: 0;
+        clear: both;
+        margin: 0 auto;
+    }
+
+    .navigation {
+        left: 0;
+        width: 100%;
+        float: none;
+        padding: 0;
+        clear: both;
+        margin: 0 auto;
+    }
+
+    }
+
