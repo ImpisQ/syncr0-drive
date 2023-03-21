@@ -216,17 +216,7 @@ hr {
     margin: 0 auto;
   }
 
-  .responsive-iframe {
-    position: absolute;
-    top: 100px;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: 0 auto;
-    float: none;
-    width: 75%;
-    height: 75%;
-  }
+
 
   /* Classes */
 
@@ -292,12 +282,13 @@ footer {
 
 /* About-Syncro */
 
+
 .our-story {
         clear: both;
         float: left;
-        margin-top: 25px;
-        margin-bottom: 50px;
-        width: 30%; 
+        margin: auto;
+        width: 37%; 
+        text-align: justify;
 }
 
 #about-syncro-drive {
@@ -314,19 +305,34 @@ footer {
 #the-idea {
     text-align: center;
     margin: 25px 0;
-    font-size: ;
     padding: 25px;
 }
 
 img {
     max-width: 100%;
     float: right;
-    padding-top: 25px;
+    padding-top: 197px;
+    margin: auto;
+    padding-right: 5px;
 }
 
-.about-syncro-drive > div{
-    flex-basis: 40%;
+#left-side {
+    line-height: 25px;
+    float: left;
+    clear: both;
+}
 
+#left-side h2 {
+    text-align: center;
+}
+
+#left-side p {
+    text-align: justify;
+}
+
+#center-stage {
+    text-align: center;
+    margin: auto;
 }
 
 .about-syncro {
@@ -343,21 +349,38 @@ img {
     float: right;
     border: 2px solid white;
     width: 100%;
+    margin: auto;
+    vertical-align: baseline;
     
 }
 
-img {
-    
-}
 
 #about-heading {
-    padding-left: 20px;
-    padding-top: 20%;
-    float: left;
-    clear: both;
+    padding-top: 5%;
+    float: none;
+  }
+
+  #about-heading h2 {
+    text-align: left;
+  }
+
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 75%;
+    height: 75%;
+    display: block;
+    margin: auto;
   }
 
   .media1 {
+    position: relative; 
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
     text-align: center;
   }
 
@@ -521,21 +544,7 @@ img {
         text-align: center;
     }
 
-    .left-about-heading, .right-about-heading {
-        width: 100%;
-        float: none;
-        clear: both;
-        padding: 0;
-        margin: 0 auto;
-    }
-
-    #center-about {
-        clear: both;
-        width: 100%;
-        float: none;
-        padding: 0;
-        margin: 0 auto;
-    }
+    
 
     #classes > div {
         width: 100%;
@@ -559,6 +568,18 @@ img {
         margin: 0 auto;
         text-align: center; 
     }
+
+    #media1 {
+        clear: both;
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+        position: relative; 
+
+    }
+
 }
 
 /* For Medium Screen Sizes From 950px Wide & Down */
@@ -648,7 +669,39 @@ img {
         margin: 0 auto;
         text-align: center; 
     }
+
+    #the-idea {
+        clear: both;
+        width: 100%;
+        float: none;
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center; 
+    }
+
+    #left-side {
+        clear: both;
+        width: 100%;
+        float: none;
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center; 
+    }
+
+    #media1 {
+        clear: both;
+        width: 100%;
+        float: none;
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center; 
+    }
+
 }
+
 
 /* For small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
@@ -727,13 +780,6 @@ img {
         text-align: center;
     }
 
-    .deer-image {
-        width: 100%;
-        float: none;
-        padding: 0;
-        margin: 0 auto;
-        clear: both;
-    }
 
     .responsive-iframe {
         left: 0;
@@ -750,6 +796,39 @@ img {
         float: none;
         padding: 0;
         clear: both;
+        margin: 0 auto;
+    }
+
+    #the-idea {
+        float: none;
+        width: 100%;
+        clear: both;
+        padding: 0;
+    }
+
+    .our-story {
+        clear: both;
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+    }
+    }
+
+    .media-container {
+        clear: both;
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+         
+    }
+
+    #left-side {
+        clear: both;
+        width: 100%;
+        float: none;
+        padding: 0;
         margin: 0 auto;
     }
 
