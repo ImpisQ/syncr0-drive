@@ -284,11 +284,12 @@ footer {
 
 
 .our-story {
-        clear: both;
-        float: left;
-        margin: auto;
-        width: 37%; 
-        text-align: justify;
+    clear: both;
+    float: left;
+    margin: auto;
+    width: 37%; 
+    text-align: start;
+    overflow: hidden;
 }
 
 #about-syncro-drive {
@@ -312,8 +313,10 @@ img {
     max-width: 100%;
     float: right;
     padding-top: 197px;
+    padding-bottom: 195px;
     margin: auto;
-    padding-right: 5px;
+    padding-right: 15px;
+    padding-left: 35px;
 }
 
 #left-side {
@@ -332,7 +335,10 @@ img {
 
 #center-stage {
     text-align: center;
-    margin: auto;
+    width: 33%;
+    font-size: 280%;
+    float: none;
+    padding-top: 35px;
 }
 
 .about-syncro {
@@ -376,11 +382,23 @@ img {
     margin: auto;
   }
 
+  .media {
+    position: relative;
+    width: 75%;
+    height: 75%;
+    display: block;
+    margin: auto;
+  }
+
+  #media {
+    height: auto;
+  }
+
   .media1 {
     position: relative; 
     overflow: hidden;
     width: 100%;
-    padding-top: 56.25%;
+    padding-bottom: 56.25%;
     text-align: center;
   }
 
