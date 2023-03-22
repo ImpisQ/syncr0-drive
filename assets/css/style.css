@@ -126,10 +126,6 @@ h1, h2 {
 
 /* Syncro Ethos*/
 
-#syncro-ethos {
-    height: ;
-}
-
 #left-about {
     padding-top: 35px;
     width: 33%;
@@ -152,6 +148,7 @@ h1, h2 {
     width: auto;
     margin: 0;
     padding: 0;
+    clear: both;
 }
 
 hr {
@@ -233,7 +230,6 @@ hr {
     background-position: center;
     width: 100%;
     overflow: hidden;
-    padding: auto;
   }
 
   #classes div {
@@ -515,7 +511,7 @@ img {
     {
         background-image: url(../images/pexels-mike-b-188777.jpg);
     }
-}
+
 
 
 /* Media Queries*/
@@ -584,8 +580,6 @@ img {
         text-align: center;
     }
 
-    
-
     #classes > div {
         width: 100%;
         clear: both;
@@ -627,14 +621,13 @@ img {
         margin: 0 auto;
         text-align: center;
         position: relative; 
-
     }
 
-}
+        
 
 /* For Medium Screen Sizes From 950px Wide & Down */
 
-@media screen (max-width: 950px) {
+@media screen and (max-width: 950px) {
     
     #menu {
         clear: left;
@@ -759,8 +752,9 @@ img {
         margin: 0 auto;
         text-align: center; 
     }
-
 }
+
+
 
 
 /* For small screen sizes 800px and down */
@@ -873,7 +867,7 @@ img {
         padding: 0;
         margin: 0 auto;
     }
-    }
+    
 
     .media-container {
         clear: both;
@@ -901,6 +895,4 @@ img {
         padding: 0;
         margin: 0 auto;
     }
-
-    }
-
+}
