@@ -559,12 +559,9 @@ img {
 
     .our-story {
         clear: both;
-        width: 100%;
-        float: none;
-        padding: 0;
+        max-width: 100%;
         margin: 0 auto;
-        text-align: center;
-        position: relative; 
+        text-align: center; 
     }
 
     #about-syncro-drive {
@@ -575,10 +572,10 @@ img {
         text-align: center;
     }
 
-    img {
+    #slider img {
         clear: both;
-        width: 100%;
-        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
     }
 
     #about-images {
