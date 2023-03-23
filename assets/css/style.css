@@ -303,6 +303,10 @@ footer {
     font-family: Lato, sans-serif;
 }
 
+.our-story h2 {
+    text-align: center;
+}
+
 
 
 #about-syncro-drive {
@@ -433,7 +437,7 @@ img {
     background-repeat: no-repeat;
     text-align: left;
     justify-content: center;
-    animation: change 125s infinite ease-in-out;
+    animation: change 10s infinite ease-in-out;
 }
 
 .signup-form {
@@ -441,7 +445,7 @@ img {
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 500px;
-    position: absolute;
+    position: relative;
     left: 10%;
     padding: 30px;
 }
@@ -646,13 +650,15 @@ img {
 /* For Medium Screen Sizes From 950px Wide & Down */
 
 @media screen and (max-width: 950px) {
+
+    .navigation {
+        text-align: center;
+    }
+
     
     #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
+       display: inline-block;
+       text-align: left;
     }
 
     .logo {
