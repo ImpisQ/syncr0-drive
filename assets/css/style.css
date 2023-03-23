@@ -557,6 +557,30 @@ img {
         text-align: center;
     }
 
+    .our-story {
+        clear: both;
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+        position: relative; 
+    }
+
+    #about-syncro-drive {
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+        clear: both;
+        text-align: center;
+    }
+
+    img {
+        clear: both;
+        width: 100%;
+        margin: 0 auto;
+    }
+
     #about-images {
         width: 100%;
         float: right;
