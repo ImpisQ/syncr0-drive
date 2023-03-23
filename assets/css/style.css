@@ -295,11 +295,11 @@ footer {
     clear: both;
     float: left;
     margin: auto;
-    width: 37%; 
+    width: 35%; 
     text-align: justify;
     overflow: hidden;
     padding-top: 75px;
-    font-size: 21px;
+    font-size: 17px;
     font-family: Lato, sans-serif;
 }
 
@@ -310,7 +310,6 @@ footer {
     overflow: hidden;
     float: left;
     padding: 25px;
-    
     margin: 0 auto;
 }
 
@@ -324,12 +323,10 @@ footer {
 img {
     max-width: 100%;
     float: right;
-    padding-top: 155px;
-    padding-bottom: 195px;
-    padding-right: 35px;
-    padding-left: 25px;
-
-    margin: auto;
+    max-width: 75%;
+    float: right;
+    padding: 155px 0 0 25px;
+    margin: 0 auto;
 }
 
 #left-side {
