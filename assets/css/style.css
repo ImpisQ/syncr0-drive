@@ -70,6 +70,16 @@ h2 {
 }
 
 
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL'0,
+        'wght'400,
+        'GRAD'0,
+        'opsz'48
+}
+
+
+
 /*Drift Image & Cover-Text*/
 
 #drift-control {
@@ -521,12 +531,11 @@ img {
 
 
 
-    /* Media Queries*/
+    /* Media Queries */
 
-    /* For larger to medium screen sixes netween 1200px wide and down*/
+    /* For larger to medium screen sixes netween 1200px wide and down */
 
     @media screen and (max-width: 1200px) {
-
 
         #menu {
             clear: both;
@@ -537,6 +546,7 @@ img {
             text-align: center;
         }
 
+
         #syncro-ethos {
             width: 100%;
             float: none;
@@ -544,6 +554,7 @@ img {
             margin: 0 auto;
             clear: both;
         }
+
 
         .welcome {
             padding: 0;
@@ -645,6 +656,7 @@ img {
             text-align: center;
             position: relative;
         }
+
 
 
 
