@@ -520,7 +520,9 @@ img {
 
 /* For larger to medium screen sixes netween 1200px wide and down*/
 
-@media screen and(max-width: 1950px) {
+@media screen {
+    
+} screen and (max-width: 1950px) {
 
     .logo {
         width: 100%;
