@@ -523,7 +523,7 @@ img {
 
     /* For larger to medium screen sixes netween 1200px wide and down*/
 
-    @media screen and (max-width: 1950px) {
+    @media screen and (max-width: 1200px) {
 
         .logo {
             width: 100%;
@@ -607,7 +607,7 @@ img {
             text-align: center;
         }
 
-        #classes > div {
+        #classes>div {
             width: 100%;
             clear: both;
             height: auto;
