@@ -6,6 +6,8 @@
     border: none;
 }
 
+
+
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -68,16 +70,6 @@ h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
-
-
-.material-symbols-outlined {
-    font-variation-settings:
-        'FILL'0,
-        'wght'400,
-        'GRAD'0,
-        'opsz'48
-}
-
 
 
 /*Drift Image & Cover-Text*/
@@ -200,7 +192,7 @@ hr {
 .welcome {
     text-align: center;
     margin: 0 auto;
-    font-size: 280%;
+    font-size: 75%;
     float: inherit;
 }
 
@@ -336,8 +328,7 @@ footer {
 img {
     max-width: 100%;
     float: right;
-    max-width: 75%;
-    float: right;
+    max-width: 100%;
     padding: 155px 0 0 25px;
     margin: 0 auto;
 }
@@ -364,7 +355,7 @@ img {
 #center-stage {
     text-align: center;
     width: 33%;
-    font-size: 280%;
+    font-size: 75%;
     float: none;
     padding-top: 35px;
 }
@@ -528,416 +519,104 @@ img {
     100% {
         background-image: url(../images/pexels-mike-b-188777.jpg);
     }
+}
 
 
+/*------------------------------------------
+  Responsive Grid Media Queries - 1280, 1024, 768, 480
+   1280-1024   - desktop (default grid)
+   1024-768    - tablet landscape
+   768-480     - tablet 
+   480-less    - phone landscape & smaller
+--------------------------------------------*/
+@media all and (min-width: 1024px) and (max-width: 1280px) {}
 
-    /* Media Queries */
-
-    /* For larger to medium screen sixes netween 1200px wide and down */
-
-    @media screen and (max-width: 1200px) {
-
-        #menu {
-            clear: both;
-            width: 100%;
-            float: none;
-            padding: 0;
-            margin: 0 auto;
-            text-align: center;
-        }
-
-
-        #syncro-ethos {
-            width: 100%;
-            float: none;
-            padding: 0;
-            margin: 0 auto;
-            clear: both;
-        }
-
-
-        .welcome {
-            padding: 0;
-            margin: 0 auto;
-            clear: both;
-            text-align: center;
-        }
-
-        .about-syncro {
-            width: 100%;
-            float: none;
-            padding: 0;
-            margin: 0 auto;
-            clear: both;
-            text-align: center;
-        }
-
-        .our-story {
-            clear: both;
-            max-width: 100%;
-            margin: 0 auto;
-            text-align: center;
-        }
-
-        #about-syncro-drive {
-            width: 100%;
-            float: none;
-            margin: 0 auto;
-            clear: both;
-            text-align: center;
-        }
-
-        #slider img {
-            clear: both;
-            max-width: 100%;
-            height: auto;
-        }
-
-        #about-images {
-            width: 100%;
-            float: right;
-            padding: 0;
-            margin: 0 auto;
-            clear: both;
-        }
-
-        #about-heading {
-            float: left;
-        }
-
-        #left-about,
-        #right-about {
-            width: 100%;
-            float: none;
-            padding: 0;
-            clear: both;
-            text-align: center;
-        }
-
-        #classes>div {
-            width: 100%;
-            clear: both;
-            height: auto;
-            padding: 0;
-            margin: 0 auto;
-
-        }
-
-        hr {
-            display: none;
-        }
-
-        .media-container {
-            clear: both;
-            width: 100%;
-            float: none;
-            justify-content: center;
-            padding: 0;
-            margin: 0 auto;
-            text-align: center;
-        }
-
-        #media-container {
-            clear: both;
-            width: 100%;
-            float: none;
-            justify-content: center;
-            padding: 0;
-            margin: 0 auto;
-            text-align: center;
-        }
-
-        #media1 {
-            clear: both;
-            width: 100%;
-            float: none;
-            padding: 0;
-            margin: 0 auto;
-            text-align: center;
-            position: relative;
-        }
-
-
-
-
-        /* For Medium Screen Sizes From 950px Wide & Down */
-
-        @media screen and (max-width: 950px) {
-
-            .navigation {
-                text-align: center;
-            }
-
-
-            #menu {
-                display: inline-block;
-                text-align: left;
-            }
-
-            .logo {
-                width: 100%;
-                float: left;
-                padding: 0;
-                clear: both;
-            }
-
-            #cover-text {
-                left: 0;
-                width: 100%;
-                float: none;
-                padding: 0;
-                clear: both;
-                margin: 0 auto;
-            }
-
-            .welcome {
-                float: none;
-                width: 95%;
-                clear: both;
-                padding: 0;
-            }
-
-            #syncro-ethos {
-                width: 100%;
-                margin: 0 auto;
-            }
-
-            #left-about,
-            #right-about {
-                width: 100%;
-                float: none;
-                padding: 0;
-                clear: both;
-            }
-
-            .left-about-heading,
-            .right-about-heading {
-                width: 100%;
-                float: none;
-                clear: both;
-                padding: 0;
-            }
-
-            .left-about-heading h2,
-            .right-about-heading h2 {
-                width: 100%;
-                text-align: center;
-            }
-
-            .left-about-heading p,
-            .right-about-heading p {
-                text-align: center;
-                padding: 0;
-                width: 100%;
-            }
-
-            #photos {
-                column-count: 3;
-            }
-
-            .responsive-iframe {
-                left: 0;
-                width: 100%;
-                float: none;
-                padding: 0;
-                clear: both;
-                margin: 0 auto;
-            }
-
-            .media-container {
-                clear: both;
-                width: 100%;
-                float: none;
-                justify-content: center;
-                padding: 0;
-                margin: 0 auto;
-                text-align: center;
-            }
-
-            #media-container {
-                clear: both;
-                width: 100%;
-                float: none;
-                justify-content: center;
-                padding: 0;
-                margin: 0 auto;
-                text-align: center;
-            }
-
-            #the-idea {
-                clear: both;
-                width: 100%;
-                float: none;
-                justify-content: center;
-                padding: 0;
-                margin: 0 auto;
-                text-align: center;
-            }
-
-            #left-side {
-                clear: both;
-                width: 100%;
-                float: none;
-                justify-content: center;
-                padding: 0;
-                margin: 0 auto;
-                text-align: center;
-            }
-
-            #media1 {
-                clear: both;
-                width: 100%;
-                float: none;
-                justify-content: center;
-                padding: 0;
-                margin: 0 auto;
-                text-align: center;
-            }
-        }
-
-
-
-
-        /* For small screen sizes 800px and down */
-        @media screen and (max-width: 800px) {
-
-            .logo {
-                width: 100%;
-                float: none;
-                padding: 0;
-                clear: both;
-            }
-
-            #cover-text {
-                left: 0;
-                width: 100%;
-                float: none;
-                padding: 0;
-                clear: both;
-                margin: 0 auto;
-            }
-
-            #menu {
-                clear: both;
-                width: 100%;
-                float: none;
-                justify-content: center;
-                padding: 0;
-                margin: 0 auto;
-                text-align: center;
-            }
-
-
-            #photos {
-                column-count: 2;
-            }
-
-            .welcome {
-                float: none;
-                width: 100%;
-                clear: both;
-                padding: 0;
-            }
-
-            #left-about,
-            #right-about {
-                width: 100%;
-                float: none;
-                padding: 0;
-                clear: both;
-            }
-
-            .left-about-heading,
-            .right-about-heading {
-                float: none;
-                width: 100%;
-                clear: both;
-                padding: 0;
-            }
-
-            .left-about-heading h2,
-            .right-about-heading h2 {
-                width: 100%;
-                text-align: center;
-                margin: 0 auto;
-            }
-
-            .left-about-heading p,
-            .right-about-heading p {
-                text-align: center;
-                padding: 0;
-                margin: 0 auto;
-                width: 100%;
-            }
-
-            .about-syncro {
-                width: 100%;
-                float: none;
-                padding: 0;
-                margin: 0 auto;
-                clear: both;
-                text-align: center;
-            }
-
-
-            .responsive-iframe {
-                left: 0;
-                width: 100%;
-                float: none;
-                padding: 0;
-                clear: both;
-                margin: 0 auto;
-            }
-
-            .navigation {
-                left: 0;
-                width: 100%;
-                float: none;
-                padding: 0;
-                clear: both;
-                margin: 0 auto;
-            }
-
-            #the-idea {
-                float: none;
-                width: 100%;
-                clear: both;
-                padding: 0;
-            }
-
-            .our-story {
-                clear: both;
-                width: 100%;
-                float: none;
-                padding: 0;
-                margin: 0 auto;
-            }
-
-
-            .media-container {
-                clear: both;
-                width: 100%;
-                float: none;
-                padding: 0;
-                margin: 0 auto;
-
-            }
-
-            #media-container {
-                clear: both;
-                width: 100%;
-                float: none;
-                justify-content: center;
-                padding: 0;
-                margin: 0 auto;
-                text-align: center;
-            }
-
-            #left-side {
-                clear: both;
-                width: 100%;
-                float: none;
-                padding: 0;
-                margin: 0 auto;
-            }
-        }
+@media all and (min-width: 768px) and (max-width: 1024px) {}
+
+@media all and (min-width: 480px) and (max-width: 768px) {}
+
+@media all and (max-width: 480px) {}
+
+/*------------------------------------------
+  Foundation Media Queries 
+   http://foundation.zurb.com/docs/media-queries.html
+--------------------------------------------*/
+
+/* Small screens - MOBILE */
+@media only screen {}
+
+/* Define mobile styles - Mobile First */
+
+@media only screen and (max-width: 40em) {}
+
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+/* Medium screens - TABLET */
+@media only screen and (min-width: 40.063em) {}
+
+/* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {}
+
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+/* Large screens - DESKTOP */
+@media only screen and (min-width: 64.063em) {}
+
+/* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {}
+
+/* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
+
+/* XLarge screens */
+@media only screen and (min-width: 90.063em) {}
+
+/* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {}
+
+/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+/* XXLarge screens */
+@media only screen and (min-width: 120.063em) {}
+
+/* min-width 1921px, xlarge screens */
+
+/*------------------------------------------*/
+
+
+
+/* Portrait */
+@media screen and (orientation:portrait) {
+    /* Portrait styles here */
+}
+
+/* Landscape */
+@media screen and (orientation:landscape) {
+    /* Landscape styles here */
+}
+
+
+/* CSS for iPhone, iPad, and Retina Displays */
+
+/* Non-Retina */
+@media screen and (-webkit-max-device-pixel-ratio: 1) {}
+
+/* Retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {}
+
+/* iPhone Portrait */
+@media screen and (max-device-width: 480px) and (orientation:portrait) {}
+
+/* iPhone Landscape */
+@media screen and (max-device-width: 480px) and (orientation:landscape) {}
+
+/* iPad Portrait */
+@media screen and (min-device-width: 481px) and (orientation:portrait) {}
+
+/* iPad Landscape */
+@media screen and (min-device-width: 481px) and (orientation:landscape) {}
