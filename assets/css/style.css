@@ -12,11 +12,19 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+    font-size: 18px;
 }
 
 /* headings and logo */
 
-h1,
+h1 {
+    font-family: 'Tilt Neon', cursive;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #737373;
+    font-size: 115px;
+}
+
 h2 {
     font-family: 'Tilt Neon', cursive;
     text-transform: uppercase;
@@ -132,6 +140,10 @@ h2 {
 
 /* Syncro Ethos*/
 
+#syncro-ethos {
+    display: flexbox;
+}
+
 #left-about {
     padding-top: 35px;
     width: 33%;
@@ -148,6 +160,11 @@ h2 {
     width: 34%;
     margin: 0 auto;
     padding-top: 35px;
+    text-align: center;
+}
+
+#central {
+    margin-bottom: 0;
 }
 
 
@@ -233,6 +250,12 @@ hr {
     overflow: hidden;
 }
 
+.classes-heading {
+    text-align: center;
+}
+
+#classes-header {}
+
 #classes div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .5);
@@ -278,19 +301,30 @@ footer {
 
 /* Gallery */
 
-#photos {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
+.masonry {
+    display: ;
+    columns: 4;
     column-gap: 0;
+    flex-direction: ;
+    line-height: 0;
+    width: 100%;
+    border-radius: 1px;
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
 }
+
 
 #photos>img {
     width: 100%;
 }
 
+
 /* About-Syncro */
 
+.about-heading {
+    text-align: center;
+}
 
 .our-story {
     clear: both;
@@ -311,6 +345,7 @@ footer {
 
 
 #about-syncro-drive {
+    display: flexbox;
     position: relative;
     overflow: hidden;
     float: left;
@@ -355,7 +390,7 @@ img {
 #center-stage {
     text-align: center;
     width: 33%;
-    font-size: 75%;
+    font-size: 100%;
     float: none;
     padding-top: 35px;
 }
@@ -529,11 +564,276 @@ img {
    768-480     - tablet 
    480-less    - phone landscape & smaller
 --------------------------------------------*/
-@media all and (min-width: 1024px) and (max-width: 1280px) {}
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    #syncro-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .logo {
+        width: 100%;
+        float: left;
+        padding: 0;
+        clear: both;
+    }
+
+    #menu {
+        clear: both;
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .welcome {
+        padding: 0;
+        margin: 0 auto;
+        clear: both;
+        text-align: center;
+    }
+
+    .about-syncro {
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+        clear: both;
+        text-align: center;
+    }
+
+    .our-story {
+        clear: both;
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #about-syncro-drive {
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+        clear: both;
+        text-align: center;
+    }
+
+    img {
+        clear: both;
+        max-width: 100%;
+    }
+
+    #about-images {
+        width: 100%;
+        float: right;
+        padding: 0;
+        margin: 0 auto;
+        clear: both;
+    }
+
+    #about-heading {
+        float: left;
+    }
+
+    #left-about,
+    #right-about {
+        width: 100%;
+        float: none;
+        padding: 0;
+        clear: both;
+        text-align: center;
+    }
+
+    #classes>div {
+        width: 100%;
+        clear: both;
+        height: auto;
+        padding: 0;
+        margin: 0 auto;
+
+    }
+
+    hr {
+        display: none;
+    }
+
+    .media-container {
+        clear: both;
+        width: 100%;
+        float: none;
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #media-container {
+        clear: both;
+        width: 100%;
+        float: none;
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #media1 {
+        clear: both;
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+    }
+
+}
 
 @media all and (min-width: 768px) and (max-width: 1024px) {}
 
-@media all and (min-width: 480px) and (max-width: 768px) {}
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .logo {
+        width: 100%;
+        float: none;
+        padding: 0;
+        clear: both;
+    }
+
+    #cover-text {
+        left: 0;
+        width: 100%;
+        float: none;
+        padding: 0;
+        clear: both;
+        margin: 0 auto;
+    }
+
+    #menu {
+        clear: both;
+        width: 100%;
+        float: none;
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+    #photos {
+        column-count: 2;
+    }
+
+    .welcome {
+        float: none;
+        width: 100%;
+        clear: both;
+        padding: 0;
+    }
+
+    #left-about,
+    #right-about {
+        width: 100%;
+        float: none;
+        padding: 0;
+        clear: both;
+    }
+
+    .left-about-heading,
+    .right-about-heading {
+        float: none;
+        width: 100%;
+        clear: both;
+        padding: 0;
+    }
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .left-about-heading p,
+    .right-about-heading p {
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .about-syncro {
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+        clear: both;
+        text-align: center;
+    }
+
+
+    .responsive-iframe {
+        left: 0;
+        width: 100%;
+        float: none;
+        padding: 0;
+        clear: both;
+        margin: 0 auto;
+    }
+
+    .navigation {
+        left: 0;
+        width: 100%;
+        float: none;
+        padding: 0;
+        clear: both;
+        margin: 0 auto;
+    }
+
+    #the-idea {
+        float: none;
+        width: 100%;
+        clear: both;
+        padding: 0;
+    }
+
+    .our-story {
+        clear: both;
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+
+    .media-container {
+        clear: both;
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+
+    }
+
+    #media-container {
+        clear: both;
+        width: 100%;
+        float: none;
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #left-side {
+        clear: both;
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+    }
+}
+
+
 
 @media all and (max-width: 480px) {}
 
