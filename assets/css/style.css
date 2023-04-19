@@ -376,7 +376,7 @@ img {
     max-width: 100%;
     float: right;
     max-width: 100%;
-    padding: 155px 0 0 25px;
+    padding: 105px 0 0 25px;
     margin: 0 auto;
 }
 
@@ -576,7 +576,7 @@ img {
    768-480     - tablet 
    480-less    - phone landscape & smaller
 --------------------------------------------*/
-@media all and (min-width: 280px) and (max-width: 915px) {
+@media all and (min-width: 280px) and (max-width: 767px) {
     .logo {
         width: 100%;
         float: none;
@@ -624,242 +624,33 @@ img {
 
     }
 
-    .media1{
-        padding-bottom: 40px;
-    }
-
-
-    .active{
-        border: 0;
-    }
-
-
-    #photos {
-        column-count: 2;
-    }
-
-    .welcome {
-        float: none;
-        width: 100%;
-        clear: both;
-        padding: 0;
-    }
-
-    #left-about,
-    #right-about {
-        width: 95%;
-        float: none;
-        padding: 0;
-        clear: both;
-
-    }
-
-    .left-about-heading,
-    .right-about-heading {
-        float: none;
-        width: 100%;
-        clear: both;
-        padding: 0;
-        margin-top: 20px
-    }
-
-    .left-about-heading h2,
-    .right-about-heading h2 {
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
-    }
-
-    .left-about-heading p,
-    .right-about-heading p {
-        text-align: center;
-        padding: 0;
-        margin: 0 auto;
-        width: 100%;
-    }
-
-    .about-syncro {
-        width: 100%;
-        float: none;
-        padding: 0;
-        margin: 0 auto;
-        clear: both;
-        text-align: center;
-    }
-
-    #syncro-ethos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .index-video{
-        width: 100%;
-        height: 250px;
-    }
-
-
-    .responsive-iframe {
-        left: 0;
-        width: 100%;
-        float: none;
-        padding: 0;
-        clear: both;
-        margin: 0 auto;
-    }
-
-    .navigation {
-        left: 0;
-        width: 100%;
-        float: none;
-        padding: 0;
-        clear: both;
-        margin: 0 auto;
-    }
-
-    #the-idea {
-        float: none;
-        width: 100%;
-        clear: both;
-        padding: 0;
-    }
-
-    .our-story {
-        clear: both;
-        width: 100%;
-        float: none;
-        padding: 0;
-        margin: 0 auto;
-    }
-
-    img {
-        max-width: 100%;
-        float: right;
-        padding: 5px 0 0 25px;
-        margin: 0 auto;
-        height: auto;
-    }
-
     #media h2 {
-        width: 100%;
         text-align: center;
-        margin: 0 auto;
-
+        font-size: 17px;
     }
 
     .media1 {
+        padding-bottom: 40px;
+    }
+
+    .media2{
         position: relative;
-        overflow: hidden;
-        width: 87%;
-        padding-bottom: 56.25%; /* 16:9 */
-        text-align: center;
-        margin: 0 auto;
-        height: 100%;
+        padding-top: 56.25%; /* 16:9 */
+        height: 0%;
     }
 
     .responsive-iframe {
         position: absolute;
         top: 0;
         left: 0;
-        width: 560;
-        height: 315;
-    }
-
-    .media-container {
-        clear: both;
         width: 100%;
-        float: none;
-        padding: 0;
-        margin: 0 auto;
-
-    }
-
-    #media-container {
-        clear: both;
-        width: 100%;
-        float: none;
-        justify-content: center;
-        padding: 1px;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    #left-side {
-        clear: both;
-        width: 100%;
-        float: none;
-        padding: 0;
-        margin: 0 auto;
-    }
-
-    #classes div{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: auto;
-        padding-bottom: 10px;
-        border: 1px solid white;
-    }
-}
-
-/* iPhone Portrait */
-@media screen and (max-device-width: 480px) and (orientation:portrait) {
-    
-}
-
-/* iPhone Landscape */
-@media screen and (max-device-width: 500px) and (orientation:landscape) {
-    .logo {
-        width: 100%;
-        float: none;
-        padding: 0;
-        clear: both;
-        font-size: 35px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
-        margin-left: 0;
-    }
-
-    #cover-text {
-        left: 0;
-        width: 100%;
+        height: 100%;
         float: none;
         padding: 0;
         clear: both;
         margin: 0 auto;
+        box-sizing: border-box;
     }
-
-    #center-about{
-        width: 100%;
-        padding: 0;
-    }
-
-    #menu li{
-        clear: both;
-        width: 100%;
-        height: 45px;
-        float: none;
-        justify-content: center;
-        padding: 0;
-        margin: 0 auto;
-        text-align: center;
-        margin-right: 0;
-        font-size: 15px;
-    }
-
-    #menu{
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 20px;
-
-    }
-
-    .media1{
-        padding-bottom: 40px;
-    }
-
 
     .active{
         border: 0;
@@ -964,29 +755,12 @@ img {
         margin: 0 auto;
     }
 
-    img {
-        max-width: 100%;
-        float: right;
-        padding: 5px 0 0 25px;
-        margin: 0 auto;
-        height: auto;
-    }
-
-    .media1 {
-        position: relative;
-        overflow: hidden;
-        width: 57%;
-        padding-bottom: 1px;
-        text-align: center;
-        margin: 0 auto;
-        height: 200px;
-    }
 
     .media-container {
         clear: both;
         width: 100%;
         float: none;
-        padding: 10px;
+        padding: 0;
         margin: 0 auto;
 
     }
@@ -996,16 +770,9 @@ img {
         width: 100%;
         float: none;
         justify-content: center;
-        padding: 0px;
+        padding: 0;
         margin: 0 auto;
         text-align: center;
-    }
-
-    #media h2 {
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
-
     }
 
     #left-side {
@@ -1026,7 +793,7 @@ img {
     }
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 768px) and (max-width: 1180px) {
     #center-about{
         width: 100%;
     }
@@ -1050,8 +817,48 @@ img {
         align-items: center;
     }
 
+    #media h2 {
+        text-align: center;
+        font-size: 21px;
+    }
+
+    .our-story {
+        clear: both;
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+        text-align: justify;
+    }
+
+    img {
+        display: block;
+        clear: both;
+        max-width: 100%;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        justify-content: center;
+    }
+
     .media1{
-        padding: 0 auto;
+        position: relative;
+        padding-top: 56.25%; /* 16:9 */
+        height: 0%;
+    }
+
+    .responsive-iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        float: none;
+        padding: 0;
+        clear: both;
+        margin: 0 auto;
+        box-sizing: border-box;
     }
 
     #classes{
@@ -1092,8 +899,7 @@ img {
 }
 
 
-
-@media all and (min-width: 1024px) and (max-width: 1366px) {
+@media all and (min-width: 1024px) and (max-width: 1441px) {
     #syncro-ethos {
         width: 65%;
         height: 1200px;
@@ -1145,17 +951,9 @@ img {
 
     .our-story {
         clear: both;
-        width: 89%;
-        float: none;
-        padding: 25px 0 0 25px;
+        max-width: 100%;
         margin: 0 auto;
-        justify-content: center;
-    }
-
-    .our-story h2 {
-        width: 100%;
         text-align: center;
-        margin: 0 auto;
     }
 
     #about-syncro-drive {
@@ -1164,14 +962,6 @@ img {
         margin: 0 auto;
         clear: both;
         text-align: center;
-    }
-
-    img {
-        clear: both;
-        max-width: 100%;
-        padding: 15px 0 0 25px;
-        margin: 0 auto;
-        height: 100%;
     }
 
     #about-images {
@@ -1230,33 +1020,29 @@ img {
         text-align: center;
     }
 
-    .media1{
-        padding: 0 auto;
+    #media h2 {
+        text-align: center;
+        font-size: 21px;
     }
 
-    #media1 {
+    .media1{
         position: relative;
-        overflow: hidden;
-        width: 100%;
-        padding-bottom: 1px;
-        text-align: center;
-        margin: 0 auto;
-        height: 100%;
+        padding-top: 56.25%; /* 16:9 */
+        height: 0%;
     }
-    
+
+
     .responsive-iframe {
+        position: absolute;
+        top: 0;
         left: 0;
         width: 100%;
+        height: 100%;
         float: none;
         padding: 0;
         clear: both;
         margin: 0 auto;
-    }
-
-    #media h2 {
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
+        box-sizing: border-box;
     }
 
     #syncro-ethos{
@@ -1279,95 +1065,39 @@ img {
         display: flex;
         flex-direction: row;
     }
-
 }
 
-@media all and (min-width: 1080px) and (max-width: 1920px) {
-    #center-about{
-        width: 100%;
-    }
 
-    #left-about{
-        margin-top: 20px;
-    }
+@media only screen and (min-width : 1824px) {
 
-    .index-video{
-        margin-top: 20px;
-    }
-
-    #left-about,
-    #right-about {
-        width: 95%;
-        float: none;
-        padding: 0;
-        clear: both;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .media1{
-        padding-bottom: 40px;
-    }
-
-    #classes{
-        margin-top: 20px;
-    }
-
-    .navigation{
-        width: 100%;
-        height: 70px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    #cover-text{
-        height: 80px;
-        margin-left: 10px;
-        left: 0;
-        width: 100%;
-        float: none;
-        padding: 0;
-        clear: both;
-        margin: 0 auto;
-    }
-
-    #menu{
-        width: 600px;
-        display: flex;
-        flex-direction: row;
-    }
-
-    #syncro-ethos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: auto;
-    }
-
-    #media h2 {
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
-}
-
-#about-syncro-drive {
-    margin: 0 auto;
-    position: relative;
-    text-align: justify;
-
-}
-
-.media1 {
-    position: relative;
-    overflow: hidden;
-    width: 87%;
-    padding-bottom: 56.25%; /* 16:9 */
+#media h2 {
     text-align: center;
-    margin: 0 auto;
-    height: 100%;
+    font-size: 17px;
 }
+
+.media2{
+    position: relative;
+    padding-top: 56.25%; /* 16:9 */
+    height: 0%;
+}
+
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    float: none;
+    padding: 0;
+    clear: both;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+}
+
+
 
 
 
@@ -1445,7 +1175,11 @@ only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (min-device-pixel-ratio: 1.5) {}
 
+/* iPhone Portrait */
+@media screen and (max-device-width: 480px) and (orientation:portrait) {}
 
+/* iPhone Landscape */
+@media screen and (max-device-width: 480px) and (orientation:landscape) {}
 
 /* iPad Portrait */
 @media screen and (min-device-width: 481px) and (orientation:portrait) {}
