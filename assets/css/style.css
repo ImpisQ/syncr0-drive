@@ -576,231 +576,7 @@ img {
    768-480     - tablet 
    480-less    - phone landscape & smaller
 --------------------------------------------*/
-@media all and (min-width: 1024px) and (max-width: 1280px) {
-    #syncro-ethos {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    #cover-text{
-        height: 80px;
-        margin-left: 10px;
-        left: 0;
-        width: 100%;
-        float: none;
-        padding: 0;
-        clear: both;
-        margin: 0 auto;
-    }
-
-    .logo {
-        width: 100%;
-        float: left;
-        padding: 0;
-        clear: both;
-    }
-
-    #menu {
-        clear: both;
-        width: 100%;
-        float: none;
-        padding: 0;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    .welcome {
-        padding: 0;
-        margin: 0 auto;
-        clear: both;
-        text-align: center;
-    }
-
-    .about-syncro {
-        width: 100%;
-        float: none;
-        padding: 0;
-        margin: 0 auto;
-        clear: both;
-        text-align: center;
-    }
-
-    .our-story {
-        clear: both;
-        max-width: 100%;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    #about-syncro-drive {
-        width: 100%;
-        float: none;
-        margin: 0 auto;
-        clear: both;
-        text-align: center;
-    }
-
-    img {
-        clear: both;
-        max-width: 100%;
-    }
-
-    #about-images {
-        width: 100%;
-        float: right;
-        padding: 0;
-        margin: 0 auto;
-        clear: both;
-    }
-
-    #about-heading {
-        float: left;
-    }
-
-    #left-about,
-    #right-about {
-        width: 95%;
-        float: none;
-        padding: 0;
-        clear: both;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #classes>div {
-        width: 100%;
-        clear: both;
-        height: auto;
-        padding: 0;
-        margin: 0 auto;
-
-    }
-
-    hr {
-        display: none;
-    }
-
-    .media-container {
-        clear: both;
-        width: 100%;
-        float: none;
-        justify-content: center;
-        padding: 0;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    #media-container {
-        clear: both;
-        width: 100%;
-        float: none;
-        justify-content: center;
-        padding: 0;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    #media1 {
-        clear: both;
-        width: 100%;
-        float: none;
-        padding: 0;
-        margin: 0 auto;
-        text-align: center;
-        position: relative;
-    }
-
-    #syncro-ethos{
-        margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: auto;
-    }
-
-    #center-about{
-        width: 100%;
-    }
-
-    .media1{
-        padding-bottom: 40px;
-    }
-
-    #classes{
-        display: flex;
-        flex-direction: row;
-    }
-
-}
-
-@media all and (min-width: 768px) and (max-width: 1024px) {
-    #center-about{
-        width: 100%;
-    }
-
-    #left-about{
-        margin-top: 20px;
-    }
-
-    .index-video{
-        margin-top: 20px;
-    }
-
-    #left-about,
-    #right-about {
-        width: 95%;
-        float: none;
-        padding: 0;
-        clear: both;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .media1{
-        padding-bottom: 40px;
-    }
-
-    #classes{
-        margin-top: 20px;
-    }
-
-    .navigation{
-        width: 100%;
-        height: 70px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    #cover-text{
-        height: 80px;
-        margin-left: 10px;
-        left: 0;
-        width: 100%;
-        float: none;
-        padding: 0;
-        clear: both;
-        margin: 0 auto;
-    }
-
-    #menu{
-        width: 600px;
-        display: flex;
-        flex-direction: row;
-    }
-
-    #syncro-ethos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: auto;
-    }
-}
-
-@media all and (min-width: 320px) and (max-width: 767px) {
+@media all and (min-width: 280px) and (max-width: 915px) {
     .logo {
         width: 100%;
         float: none;
@@ -956,6 +732,38 @@ img {
         margin: 0 auto;
     }
 
+    img {
+        max-width: 100%;
+        float: right;
+        padding: 5px 0 0 25px;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    #media h2 {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    .media1 {
+        position: relative;
+        overflow: hidden;
+        width: 87%;
+        padding-bottom: 56.25%; /* 16:9 */
+        text-align: center;
+        margin: 0 auto;
+        height: 100%;
+    }
+
+    .responsive-iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 560;
+        height: 315;
+    }
 
     .media-container {
         clear: both;
@@ -971,7 +779,7 @@ img {
         width: 100%;
         float: none;
         justify-content: center;
-        padding: 0;
+        padding: 1px;
         margin: 0 auto;
         text-align: center;
     }
@@ -992,6 +800,573 @@ img {
         padding-bottom: 10px;
         border: 1px solid white;
     }
+}
+
+/* iPhone Portrait */
+@media screen and (max-device-width: 480px) and (orientation:portrait) {
+    
+}
+
+/* iPhone Landscape */
+@media screen and (max-device-width: 500px) and (orientation:landscape) {
+    .logo {
+        width: 100%;
+        float: none;
+        padding: 0;
+        clear: both;
+        font-size: 35px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    #cover-text {
+        left: 0;
+        width: 100%;
+        float: none;
+        padding: 0;
+        clear: both;
+        margin: 0 auto;
+    }
+
+    #center-about{
+        width: 100%;
+        padding: 0;
+    }
+
+    #menu li{
+        clear: both;
+        width: 100%;
+        height: 45px;
+        float: none;
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+        margin-right: 0;
+        font-size: 15px;
+    }
+
+    #menu{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+
+    }
+
+    .media1{
+        padding-bottom: 40px;
+    }
+
+
+    .active{
+        border: 0;
+    }
+
+
+    #photos {
+        column-count: 2;
+    }
+
+    .welcome {
+        float: none;
+        width: 100%;
+        clear: both;
+        padding: 0;
+    }
+
+    #left-about,
+    #right-about {
+        width: 95%;
+        float: none;
+        padding: 0;
+        clear: both;
+
+    }
+
+    .left-about-heading,
+    .right-about-heading {
+        float: none;
+        width: 100%;
+        clear: both;
+        padding: 0;
+        margin-top: 20px
+    }
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .left-about-heading p,
+    .right-about-heading p {
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .about-syncro {
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+        clear: both;
+        text-align: center;
+    }
+
+    #syncro-ethos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .index-video{
+        width: 100%;
+        height: 250px;
+    }
+
+
+    .responsive-iframe {
+        left: 0;
+        width: 100%;
+        float: none;
+        padding: 0;
+        clear: both;
+        margin: 0 auto;
+    }
+
+    .navigation {
+        left: 0;
+        width: 100%;
+        float: none;
+        padding: 0;
+        clear: both;
+        margin: 0 auto;
+    }
+
+    #the-idea {
+        float: none;
+        width: 100%;
+        clear: both;
+        padding: 0;
+    }
+
+    .our-story {
+        clear: both;
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    img {
+        max-width: 100%;
+        float: right;
+        padding: 5px 0 0 25px;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .media1 {
+        position: relative;
+        overflow: hidden;
+        width: 57%;
+        padding-bottom: 1px;
+        text-align: center;
+        margin: 0 auto;
+        height: 200px;
+    }
+
+    .media-container {
+        clear: both;
+        width: 100%;
+        float: none;
+        padding: 10px;
+        margin: 0 auto;
+
+    }
+
+    #media-container {
+        clear: both;
+        width: 100%;
+        float: none;
+        justify-content: center;
+        padding: 0px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #media h2 {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    #left-side {
+        clear: both;
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    #classes div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding-bottom: 10px;
+        border: 1px solid white;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    #center-about{
+        width: 100%;
+    }
+
+    #left-about{
+        margin-top: 20px;
+    }
+
+    .index-video{
+        margin-top: 20px;
+    }
+
+    #left-about,
+    #right-about {
+        width: 95%;
+        float: none;
+        padding: 0;
+        clear: both;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .media1{
+        padding: 0 auto;
+    }
+
+    #classes{
+        margin-top: 20px;
+    }
+
+    .navigation{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #cover-text{
+        height: 80px;
+        margin-left: 10px;
+        left: 0;
+        width: 100%;
+        float: none;
+        padding: 0;
+        clear: both;
+        margin: 0 auto;
+    }
+
+    #menu{
+        width: 600px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #syncro-ethos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+}
+
+
+
+@media all and (min-width: 1024px) and (max-width: 1366px) {
+    #syncro-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #cover-text{
+        height: 80px;
+        margin-left: 10px;
+        left: 0;
+        width: 100%;
+        float: none;
+        padding: 0;
+        clear: both;
+        margin: 0 auto;
+    }
+
+    .logo {
+        width: 100%;
+        float: left;
+        padding: 0;
+        clear: both;
+    }
+
+    #menu {
+        clear: both;
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .welcome {
+        padding: 0;
+        margin: 0 auto;
+        clear: both;
+        text-align: center;
+    }
+
+    .about-syncro {
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+        clear: both;
+        text-align: center;
+    }
+
+    .our-story {
+        clear: both;
+        width: 89%;
+        float: none;
+        padding: 25px 0 0 25px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .our-story h2 {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #about-syncro-drive {
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+        clear: both;
+        text-align: center;
+    }
+
+    img {
+        clear: both;
+        max-width: 100%;
+        padding: 15px 0 0 25px;
+        margin: 0 auto;
+        height: 100%;
+    }
+
+    #about-images {
+        width: 100%;
+        float: right;
+        padding: 0;
+        margin: 0 auto;
+        clear: both;
+    }
+
+    #about-heading {
+        float: left;
+    }
+
+    #left-about,
+    #right-about {
+        width: 95%;
+        float: none;
+        padding: 0;
+        clear: both;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #classes>div {
+        width: 100%;
+        clear: both;
+        height: auto;
+        padding: 0;
+        margin: 0 auto;
+
+    }
+
+    hr {
+        display: none;
+    }
+
+    .media-container {
+        clear: both;
+        width: 100%;
+        float: none;
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #media-container {
+        clear: both;
+        width: 100%;
+        float: none;
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .media1{
+        padding: 0 auto;
+    }
+
+    #media1 {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-bottom: 1px;
+        text-align: center;
+        margin: 0 auto;
+        height: 100%;
+    }
+    
+    .responsive-iframe {
+        left: 0;
+        width: 100%;
+        float: none;
+        padding: 0;
+        clear: both;
+        margin: 0 auto;
+    }
+
+    #media h2 {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #syncro-ethos{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    #center-about{
+        width: 100%;
+    }
+
+    .media1{
+        padding-bottom: 40px;
+    }
+
+    #classes{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+@media all and (min-width: 1080px) and (max-width: 1920px) {
+    #center-about{
+        width: 100%;
+    }
+
+    #left-about{
+        margin-top: 20px;
+    }
+
+    .index-video{
+        margin-top: 20px;
+    }
+
+    #left-about,
+    #right-about {
+        width: 95%;
+        float: none;
+        padding: 0;
+        clear: both;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .media1{
+        padding-bottom: 40px;
+    }
+
+    #classes{
+        margin-top: 20px;
+    }
+
+    .navigation{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #cover-text{
+        height: 80px;
+        margin-left: 10px;
+        left: 0;
+        width: 100%;
+        float: none;
+        padding: 0;
+        clear: both;
+        margin: 0 auto;
+    }
+
+    #menu{
+        width: 600px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #syncro-ethos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    #media h2 {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+}
+
+#about-syncro-drive {
+    margin: 0 auto;
+    position: relative;
+    text-align: justify;
+
+}
+
+.media1 {
+    position: relative;
+    overflow: hidden;
+    width: 87%;
+    padding-bottom: 56.25%; /* 16:9 */
+    text-align: center;
+    margin: 0 auto;
+    height: 100%;
 }
 
 
@@ -1070,11 +1445,7 @@ only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (min-device-pixel-ratio: 1.5) {}
 
-/* iPhone Portrait */
-@media screen and (max-device-width: 480px) and (orientation:portrait) {}
 
-/* iPhone Landscape */
-@media screen and (max-device-width: 480px) and (orientation:landscape) {}
 
 /* iPad Portrait */
 @media screen and (min-device-width: 481px) and (orientation:portrait) {}
