@@ -53,9 +53,9 @@ h2 {
 
 /* navigation links */
 
-.navigation {
+/* .navigation {
     
-}
+} */
 
 
 #menu {
@@ -264,7 +264,7 @@ hr {
     text-align: center;
 }
 
-#classes-header {}
+/* #classes-header {} */
 
 
 
@@ -314,17 +314,20 @@ footer {
 /* Gallery */
 
 .masonry {
-    display: ;
-    columns: 4;
+    columns: 5;
     column-gap: 0;
-    flex-direction: ;
+    width: 100%;
     line-height: 0;
-    width: 100%;
-    border-radius: 1px;
-    padding: 0;
-    width: 100%;
     margin: 0 auto;
+    padding: 0
 }
+
+.masonry>img {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+}
+
 
 
 #photos>img {
@@ -335,28 +338,35 @@ footer {
 /* About-Syncro */
 
 .about-heading {
+    width: 100%;
+    float: none;
+    padding: 0;
+    margin: 0 auto;
+    clear: both;
     text-align: center;
 }
 
+
 .our-story {
     clear: both;
-    float: left;
-    margin: auto;
-    width: 35%;
-    text-align: justify;
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
     overflow: hidden;
     padding-top: 75px;
     font-size: 17px;
     font-family: Lato, sans-serif;
-}
+} 
 
 .our-story h2 {
     text-align: center;
-}
+} 
 
 
 
-#about-syncro-drive {
+/* #about-syncro-drive {
     display: flexbox;
     position: relative;
     overflow: hidden;
@@ -370,15 +380,15 @@ footer {
     margin: auto;
     font-size: 280%;
     float: inherit;
-}
+} 
 
-img {
-    max-width: 100%;
-    float: right;
-    max-width: 100%;
-    padding: 105px 0 0 25px;
+/* img {
+    width: 100%;
+    float: none;
+    width: 100%;
+    padding: 0;
     margin: 0 auto;
-}
+} */
 
 #left-side {
     line-height: 25px;
@@ -436,7 +446,7 @@ img {
     text-align: left;
 }
 
-.responsive-iframe {
+/* .responsive-iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -446,7 +456,7 @@ img {
     height: 75%;
     display: block;
     margin: auto;
-}
+} */
 
 .media {
     position: relative;
@@ -576,7 +586,16 @@ img {
    768-480     - tablet 
    480-less    - phone landscape & smaller
 --------------------------------------------*/
-@media all and (min-width: 280px) and (max-width: 767px) {
+@media all and (min-width: 280px) and (max-width: 768px) {
+    
+    html,body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    } 
+    
     .logo {
         width: 100%;
         float: none;
@@ -626,7 +645,7 @@ img {
 
     #media h2 {
         text-align: center;
-        font-size: 17px;
+        font-size: 25px;
     }
 
     .media1 {
@@ -656,10 +675,18 @@ img {
         border: 0;
     }
 
-
-    #photos {
-        column-count: 2;
+    .masonry {
+        columns: 2;
+        column-gap: 0;
+        width: 100%;
     }
+    
+    .masonry>img {
+        display: inline-block;
+        margin: 0;
+        width: 100%;
+    }
+   
 
     .welcome {
         float: none;
@@ -725,6 +752,7 @@ img {
     .responsive-iframe {
         left: 0;
         width: 100%;
+        height: 100%;
         float: none;
         padding: 0;
         clear: both;
@@ -749,10 +777,21 @@ img {
 
     .our-story {
         clear: both;
-        width: 100%;
+        width: 95%;
         float: none;
         padding: 0;
         margin: 0 auto;
+    }
+
+    img {
+        display: block;
+        clear: both;
+        max-width: 100%;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        justify-content: center;
     }
 
 
@@ -793,7 +832,16 @@ img {
     }
 }
 
-@media all and (min-width: 768px) and (max-width: 1180px) {
+@media all and (min-width: 769px) and (max-width: 1024px) {
+
+    html,body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    
     #center-about{
         width: 100%;
     }
@@ -817,24 +865,42 @@ img {
         align-items: center;
     }
 
+    .masonry {
+        columns: 3;
+        column-gap: 0;
+        width: 100%;
+    }
+    
+    .masonry>img {
+        display: inline-block;
+        margin: 0;
+        width: 100%;
+    }
+
+
     #media h2 {
         text-align: center;
-        font-size: 21px;
+        font-size: 45px;
     }
 
     .our-story {
         clear: both;
-        width: 100%;
+        width: 95%;
         float: none;
         padding: 0;
         margin: 0 auto;
         text-align: justify;
+        
+    }
+
+    .our-story h2 {
+        text-align: center;
     }
 
     img {
-        display: block;
+        display: flex;
         clear: both;
-        max-width: 100%;
+        width: 100%;
         padding: 0;
         margin-left: auto;
         margin-right: auto;
@@ -843,21 +909,30 @@ img {
     }
 
     .media1{
+        display: contents;
         position: relative;
         padding-top: 56.25%; /* 16:9 */
-        height: 0%;
+        height: 100%;
+    }
+
+    .media2{
+        position: relative;
+        padding-top: 56.25%; /* 16:9 */
+        height: 100%;
+        width: 100%;
+        
     }
 
     .responsive-iframe {
+        display: block;
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        float: none;
         padding: 0;
         clear: both;
-        margin: 0 auto;
+        margin: auto;
         box-sizing: border-box;
     }
 
@@ -899,14 +974,22 @@ img {
 }
 
 
-@media all and (min-width: 1024px) and (max-width: 1441px) {
+@media all and (min-width: 1025px) and (max-width: 1624px) {
+    html,body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    
     #syncro-ethos {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    #cover-text{
+    #cover-text {
         height: 80px;
         margin-left: 10px;
         left: 0;
@@ -940,21 +1023,43 @@ img {
         text-align: center;
     }
 
-    .about-syncro {
+    .about-heading {
         width: 100%;
         float: none;
+        margin: 0;
         padding: 0;
-        margin: 0 auto;
-        clear: both;
         text-align: center;
     }
 
     .our-story {
+        position: relative;
         clear: both;
-        max-width: 100%;
+        width: 95%;
+        float: none;
+        padding: 0;
         margin: 0 auto;
+        text-align: justify;
+    }
+
+    .our-story h2 {
         text-align: center;
     }
+
+    img {
+        display: flex;
+        clear: both;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: auto;
+        justify-content: center;
+    }
+
+    #media h2 {
+        text-align: center;
+        font-size: 45px;
+    }
+
 
     #about-syncro-drive {
         width: 100%;
@@ -962,6 +1067,42 @@ img {
         margin: 0 auto;
         clear: both;
         text-align: center;
+    }
+    
+
+    .media1{
+        display: contents;
+        position: relative;
+        padding-top: 56.25%; /* 16:9 */
+        height: 100%;
+    }
+
+    .media2{
+        position: relative;
+        padding-top: 56.25%; /* 16:9 */
+        height: 100%;
+        width: 100%;
+        float: none;
+        align-items: center;
+        
+    }
+
+    .responsive-iframe {
+        display: block;
+        position: absolute;
+        float: none;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        float: left;
+        padding: 0;
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+        
     }
 
     #about-images {
@@ -974,6 +1115,11 @@ img {
 
     #about-heading {
         float: left;
+    } 
+
+    .about-heading > img {
+        display: flex;
+        justify-content: center;
     }
 
     #left-about,
@@ -1020,30 +1166,6 @@ img {
         text-align: center;
     }
 
-    #media h2 {
-        text-align: center;
-        font-size: 21px;
-    }
-
-    .media1{
-        position: relative;
-        padding-top: 56.25%; /* 16:9 */
-        height: 0%;
-    }
-
-
-    .responsive-iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        float: none;
-        padding: 0;
-        clear: both;
-        margin: 0 auto;
-        box-sizing: border-box;
-    }
 
     #syncro-ethos{
         margin-top: 20px;
@@ -1068,17 +1190,59 @@ img {
 }
 
 
-@media only screen and (min-width : 1824px) {
+@media only screen and (min-width : 1625px) and (max-width: 1709px) {
+    html,body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
 
-#media h2 {
+    #about-syncro-drive {
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+        clear: both;
+        text-align: center;
+    }
+    
+    .our-story {
+        display: flex;
+        flex-direction: column;
+        clear: both;
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+        text-align: justify;
+
+    }
+
+    .our-story h2 {
+        text-align: center;
+    }
+  
+    img {
+        display: flex;
+        clear: both;
+        width: 100%;
+        padding: auto;
+        margin: 0;
+        height: auto;
+        justify-content: center;
+    }
+
+    #media h2 {
     text-align: center;
     font-size: 17px;
-}
+    }
 
-.media2{
+    .media2{
     position: relative;
     padding-top: 56.25%; /* 16:9 */
-    height: 0%;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -1093,6 +1257,153 @@ img {
     clear: both;
     margin: 0 auto;
     box-sizing: border-box;
+}
+
+}
+
+@media only screen and (min-width : 1710px) and (max-width: 1920px) {
+     html,body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    
+    .about-heading {
+        width: 100%;
+        float: none;
+        margin: auto;
+        padding: auto;
+        text-align: center;
+    }
+
+    .our-story {
+        clear: both;
+        width: 97%;
+        float: none;
+        padding: 0;
+        margin: auto;
+        text-align: center;
+        overflow: hidden;
+
+    }
+
+    .our-story h2 {
+        text-align: center;
+    } 
+
+
+    img {
+        position: relative;
+        display: flex;
+        clear: both;
+        width: 100%;
+        padding: auto;
+        margin: 0;
+        height: auto;
+        justify-content: center;
+    }
+
+
+    #media h2 {
+        padding-top: 35px;
+        text-align: center;
+        font-size: 55px;
+    }
+    
+    .media2 {
+        position: relative;
+        padding-top: 56.25%; /* 16:9 */ 
+        width: 100%;
+        height: 100%;
+    }
+
+    .responsive-iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        float: none;
+        padding: 0;
+        clear: both;
+        margin: 0 auto;
+        box-sizing: border-box;
+ 
+}
+}
+
+@media only screen and (min-width : 2011px) {
+    html,body {
+       width: 100%;
+       height: 100%;
+       margin: 0;
+       padding: 0;
+       overflow-x: hidden;
+   } 
+
+   .about-heading {
+    width: 100%;
+    float: none;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+.our-story {
+    clear: both;
+    width: 97%;
+    float: none;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.our-story h2 {
+    text-align: center;
+} 
+
+
+img {
+    position: relative;
+    display: flex;
+    clear: both;
+    width: 100%;
+    padding: auto;
+    margin: 0;
+    height: auto;
+    justify-content: center;
+}
+
+
+#media h2 {
+    padding-top: 35px;
+    text-align: center;
+    font-size: 55px;
+}
+
+.media2 {
+    position: relative;
+    padding-top: 56.25%; /* 16:9 */ 
+    width: 100%;
+    height: 100%;
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    float: none;
+    padding: 0;
+    clear: both;
+    margin: 0 auto;
+    box-sizing: border-box;
+
 }
 
 }
