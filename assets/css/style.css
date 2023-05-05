@@ -500,7 +500,7 @@ footer {
 
 .signup-form {
     margin: 150px 10% 0 0;
-    color: #fff;
+    color: rgb(255, 145, 1);
     background-color: rgba(60, 60, 60, 0.7);
     max-width: 500px;
     position: absolute;
