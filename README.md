@@ -1,7 +1,7 @@
 
 # Syncro-Drive
 
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Syncro-Drive Displayed On Various Screen Sizes](readme-assets/AmIResponsive-04.05.2023.JPG)
 
 Welcome USER_NAME,
 
