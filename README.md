@@ -27,7 +27,8 @@ Syncro-Drive is live @ [Synco-Drive!](https://impisq.github.io/syncr0-drive/)
   + [Media](#media "Media")
 
 
-## User Experience (UX)
+##  UX
+_____________________________________________________________________
 
 ### Site Purpose:
 This is the introductory website to Syncro-Drive.
@@ -142,5 +143,71 @@ The classes section outlines the various Syncro-Driving Courses from which one c
 - HTML
   - No errors were returned with [W3C Validator](https://validator.w3.org/) Or [Nu HTML Checker](https://validator.w3.org/nu/)
 
+  ![HTML Validation](readme-assets/readme-images/HTML%20Validation.PNG)
+
   - CSS
   - No errors were returned with [JIgsaw](https://jigsaw.w3.org/css-validator/) Or [Code Beautify](https://codebeautify.org/)
+
+
+  ![CSS Validation](readme-assets/readme-images/CSS%20Validation.PNG)
+
+  ![Accessibility-Ratings Mobile](readme-assets/readme-images/Accessibilty%20Ratings.PNG)
+
+  ![Accessibility-Ratings Desktop](readme-assets/readme-images/Accessibilty%20Ratings.0001.PNG)
+
+
+_ _ _ _
+
+## Unfixed Bugs
+There is an issue with some of the pages returning a warning on validation.
+Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+It turns out that this is caused by the Prettier Formatter Auto Formating on Save and this automatically adding a trailing slash.
+This is going to require and edit and to re-configure Prettier Formatter Settings.
+At this stage its showing as info and not an error however I shall be editing this in the near future.
+
+
+_ _ _ _ _
+
+## Technologies Used
+_________________________________________________________________________
+
+### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks, Libraries & Programs Used
+
+[Font Awesome:](https://fontawesome.com/)
+
+[Git](https://git-scm.com/)
+
+[GitHub:](https://github.com/)
+
+[Google Fonts:](https://fonts.google.com/)
+
+[Am I Responsive](https://ui.dev/amiresponsive?url=https://impisq.github.io/syncr0-drive/index.html)
+
+
+
+
+
+## Credits 
+The Syncro-Drive Website design drew inspiration from the Love Running Project and most of the structure of the site has been based on the Love Running Project with the exception of the About Us Page.
+
+I would like to give credit to my Mentor Martina Terlevic, who has been so supportive and very informative.
+I would olike to thank the Code Inastitute Student Care Team who have been very patient and supportive especially given the stressful personal circumstances that I have been dealing with that have had a knock on effect on just about everything in my day to day.
+A big shout out to Aoife Ní Dhonnchadha and Bethany Norton at Student Care.
+I would alos like to give a big thank you to Paul Thomas O’Riordan the Cohort Facilitator
+
+### Content 
+
+- The text and content of the Syncro-Drive website is 
+- 
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- The photos, images and drift videos used on the Home, Gallery and Sign up page are from [Pexels](https://www.pexels.com/)
+- The deer in headlights image used for the About page was taken from [The World Of Deer](https://worlddeer.org/)
+- THe embedded YouTube Video on the About Page is Courtesy of [Driver61.com](https://driver61.com/)
