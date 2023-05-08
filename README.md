@@ -1,111 +1,146 @@
 
 # Syncro-Drive
 
-![Syncro-Drive Displayed On Various Screen Sizes](readme-assets/readme-images/AmIResponsive-04.05.2023.0001.JPG)
+![Syncro-Drive Displayed On Various Screen Sizes](readme-assets/readme-images/Syncro-Drive-AmIResponsive.2.0.PNG)
 
-Welcome USER_NAME,
+Syncro-Drive is live @ [Synco-Drive!](https://impisq.github.io/syncr0-drive/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Tabel of Contents
++ [UX](#ux "UX")
+  + [Site Purpose](#site-purpose "Site Purpose")
+  + [Site Goal](#site-goal "Site Goal")
++ [Design](#design "Design")
+  + [Colour Scheme](#colour-scheme "Colour Scheme")
+  + [Typography](#typography "Typography")
+  + [Imagery](#imagery "Imagery")
++ [Features](#features "Features")
+  + [Existing Features](#existing-features "Existing Features")
++ [Testing](#testing "Testing")
+  + [Validator Testing](#validator-testing "Validator Testing")
+  + [Unfixed Bugs](#unfixed-bugs "Unfixed Bugs")
++ [Technologies Used](#technologies-used "Technologies Used")
+  + [Main Languages Used](#main-languages-used "Main Languages Used")
+  + [Frameworks, Libraries & Programs Used](#frameworks-libraries-programs-used "Frameworks, Libraries & Programs Used")
++ [Deployment](#deployment "Deployment")
++ [Credits](#credits "Credits")
+  + [Content](#content "Content")
+  + [Media](#media "Media")
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+## User Experience (UX)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Site Purpose:
+This is the introductory website to Syncro-Drive.
+The concept of creating a community of enthusiasts for safer, better, faster more responsive driving skills is at the heart of Syncro-Drive. 
 
-`python3 -m http.server`
+The inspiration for Syncro-Drive came from a combination of different frustrations with motoring in Ireland.
+Among these are high and exorbitant insurance premiums, with very limited options on the market.
+Driving school lessons are less than adequate when compared to most European standards and thus a lot of bad drivers on the road.
+We shall not even talk about inconsistent speed limits.
+And so came the idea of creating a legaly recognised skill-set that might be able to address some of these frustrations whilst building a community and space for enthusiasts.
 
-A blue button should appear to click: _Make Public_,
+### Site Goal:
+Our site has been set up to provide an option for signing up for a particular skill-set of their choice with industry professionals running the training, whilst retaining an element of a fun and social community.
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Design
 
-A blue button should appear to click: _Make Public_,
+### Colour Scheme
+The two main colours used are White and Orange.
 
-Another blue button should appear to click: _Open Browser_.
+### Typography
+The Tilt Neon font is the font used for headings on all pages 4 website pages whilst paragraphs and text use Lato with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Features 
+### Existing Features
 
+  - Identically featured on all four pages, the fully responsive navigation bar includes links to the Logo, Home page, Gallery, About Us and Sign Up pages for smoothe and seamless navigation.
+  - The navigation bar enables the visitor to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+
+  ![Nav Bar](readme-assets/readme-images/Syncro-Drive-Nav.PNG)
+
+
+### The landing page image
+
+  - The landing page comprises a photograph with text overlay invitingly declaring the site's purpose and concept. 
+  - This section welcomes the visitor to Syncro-Drive with an animated image of a sports car drifting on a street.
+
+![Drift-Control](readme-assets/readme-images/Drift-Control_Syncro-Drive.PNG)
+
+
+
+### Syncro Ethos Section
+
+  - The Syncro-Ethos section outlines the benefits of signing up for Syncro-Drive meets, sessions, and social events as well as the benefits of learning new driving skills. 
+  - This user will see the value of signing up for the Syncro-Drive courses.  
+
+![Syncro-Ethos](readme-assets/readme-images/Syncro-Ethos.Section.PNG)
+
+
+### Central Section
+ - This is presented as the purpose and reason to be for Syncro-Drive with an embedded video of a car being skillfuly drifted on a track circuit.
+
+ ![Syncro-Central](readme-assets/readme-images/Syncro-Central.PNG)
+
+
+### Classes Section
+The classes section outlines the various Syncro-Driving Courses from which one can chose their preferred discipline.
+
+![Syncro-Driving Courses](readme-assets/readme-images/Syncro-Classes%20and%20Course%20Types.0001.PNG)
+
+
+
+### The Footer
+
+  - The footer section is comprised of social media links for everything Syncro-Drive. The links open in a new tab for flexible easy navigation. 
+  - This footer is invaluable as mnost updates and information are shared via social media.
+
+  ![Social Media](readme-assets/readme-images/Syncro-Drive-Footer.PNG)
+
+  ### Gallery
+
+  - The gallery is setup to depict the various driving conditions that most people might find challenging and attempts to show what can be learned when one signs up. 
+  - This section is indispensable as this is where visitors get a better insight about the kind of skills being emphasised whilst being able to relate and identify with the various scenarios of adverse driving conditions. 
+
+  ![Gallery](readme-assets/readme-images/Gallery-Photos.PNG)
+
+  ### About Us Page
+  This page was created as background story to narrate the origins of the concept and idea.
+
+  ![The Story & Idea](readme-assets/readme-images/About-Syncro-Drive.PNG)
+  ![Ohh Dear](readme-assets/readme-images/About-Syncro-Drive-Deer-In-Headlightsss.PNG)
+
+### Media Section
+- This section shows an embedded video that has been borrowed from Driver61.com as a trailer for some of the skills that are going to be covered in any of the Courses taken with Syncro-Drive.
+
+![Media-Trailer](readme-assets/readme-images/Left-Foot-Braking.PNG)
+
+
+### The Sign Up Page
+
+  - This page is set up for signing up to join Syncro-Drive with a set of options for preferred course. The user has the options of selecting VIP & Defensice, Extreme Environments, Rally Driving, Vehiccle Dynamics, Stunt & Tatical or a custom besopke or tailor-made course. The user is required to submit their full name and email address. 
+  - The background imagery is styled with an animation.
+
+![SignUp-Page](readme-assets/readme-images/Syncro-Drive_signup.PNG)
+
+
+
+### Features Left to Implement
+
+- A more diverse set of images to be deployed
+- A dedicated video page which allows members to upload videos
+- Addition of more Social Media PLatforms
+
+
+## Testing 
 ------
+### Validator Testing 
 
-## Release History
+- HTML
+  - No errors were returned with [W3C Validator](https://validator.w3.org/) Or [Nu HTML Checker](https://validator.w3.org/nu/)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+  - CSS
+  - No errors were returned with [JIgsaw](https://jigsaw.w3.org/css-validator/) Or [Code Beautify](https://codebeautify.org/)
