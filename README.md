@@ -202,9 +202,11 @@ I would alos like to give a big thank you to Paul Thomas O’Riordan the Cohort 
 
 ### Content 
 
-- The text and content of the Syncro-Drive website is 
-- 
+- The text and narrative of the Syncro-Drive website is created by the author
+- The About Us narrative is borrowed fr4om a personal experience.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Fonts have been taken from [Google Fonts:](https://fonts.google.com/).
+
 
 ### Media
 
