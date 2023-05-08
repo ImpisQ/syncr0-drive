@@ -1,7 +1,7 @@
 
 # Syncro-Drive
 
-![Syncro-Drive Displayed On Various Screen Sizes](readme-assets/AmIResponsive-04.05.2023.JPG)
+![Syncro-Drive Displayed On Various Screen Sizes](readme-assets/readme-images/AmIResponsive-04.05.2023.0001.JPG)
 
 Welcome USER_NAME,
 
