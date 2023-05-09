@@ -51,13 +51,6 @@ h2 {
 
 }
 
-/* navigation links */
-
-/* .navigation {
-    
-} */
-
-
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -147,13 +140,6 @@ h2 {
 
     position: absolute;
 }
-
-/* Syncro Ethos*/
-/*
-#syncro-ethos {
-    display: flexbox;
-}
-*/
 
 #left-about {
     padding-top: 35px;
@@ -265,10 +251,6 @@ hr {
     text-align: center;
 }
 
-/* #classes-header {} */
-
-
-
 #classes div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .5);
@@ -369,32 +351,6 @@ footer {
     text-align: center;
 } 
 
-
-
-/* #about-syncro-drive {
-    display: flexbox;
-    position: relative;
-    overflow: hidden;
-    float: left;
-    padding: 25px;
-    margin: 0 auto;
-}
-
-#the-idea {
-    text-align: center;
-    margin: auto;
-    font-size: 280%;
-    float: inherit;
-} 
-
-/* img {
-    width: 100%;
-    float: none;
-    width: 100%;
-    padding: 0;
-    margin: 0 auto;
-} */
-
 #left-side {
     line-height: 25px;
     float: left;
@@ -450,18 +406,6 @@ footer {
 #about-heading h2 {
     text-align: left;
 }
-
-/* .responsive-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 75%;
-    height: 75%;
-    display: block;
-    margin: auto;
-} */
 
 .media {
     position: relative;
